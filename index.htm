@@ -78,10 +78,19 @@
 
     	<!-- Home -->
     	<div id="home" class="section coral current">
-        	<img src="./images/logo1.png" width="512" height="32" alt="Shruti &amp; Dharmendra" id="logo">
-			<div class="content">
-			<h1>We Are Getting Married!</h1>
-                <h2>June 04, 2014 in Rajasthan, IN</h2>
+            <ul id="scene3" data-limit-y="5">
+                <li class="lalala" data-depth="0.30" id="together"></li>
+            </ul>
+            <ul id="scene1" data-scalar-y="18" style="text-align:center; top:-490px;">
+                <li class="lalala" data-depth="0.20"><img src="./images/logo1.png" width="512" height="32" alt="Shruti &amp; Dharmendra" id="logo"></li>
+            </ul>
+            <div class="content">
+                <ul id="scene2" data-scalar-y="8">
+                    <li class="lalala" data-depth="1.00">
+                        <h1>We Are Getting Married!</h1>
+                        <h2>June 04, 2014 in Rajasthan, IN</h2>
+                    </li>
+                </ul>
             </div>
       	</div>
         
@@ -93,7 +102,6 @@
                         <div class="padding">
                           	<h3>The Bride</h3>
                             <h4>Shruti Goyal</h4>
-                            <!--<p>Shruti was born and raised in Eau Claire, WI. After high school, she moved to Menomonie to attend the University of Wisconsin-Stout, where her passion for history was born. After two years in Menomonie, Shruti moved back to Eau Claire to attend University of Wisconsin-Eau Claire where she graduated with a degree in history.</p>-->
                             <p>Daughter of Mrs. Maya and Bajrang Goyal, Shruti was born in Hindaun City and grew up there with two sisters and a brother. She completed post-graduation in Computer Applications from University of Rajasthan, where she met amazing life long friends. She worked with CMC Ltd for an year.<br> Shruti has a bubbly personality, wonderful smile and a quick opinion. She believes that happiness is a choice and she chooses to surround herself with the people and things that make her the happiest in life!!</p>
                         </div>
                     </div>
@@ -103,8 +111,6 @@
                         <div class="padding">
                             <h3>The Groom</h3>
                             <h4>Dharmendra Garg</h4>
-                            <!--<p>Dharmendra was born and raised in Marshfield, WI. Throughout elementary school, junior high, and high school, he was always outside playing football, playing basketball, skateboarding, and snowboarding. During the cold and rainy days, Dharmendra and his friends would play video games into the wee hours of the morning.</p>
-                            <p>After graduating high school, Dharmendra moved to Menomonie, WI to attend the University of Wisconsin-Stout. During this time, he developed a knack for web design and web development.</p>-->
                             <p>Dharmendra, now 29, was born and brought up in Hindaun City. He lived there for 16 years and completed his early education there itself and then moved to Kota. He received his bachelors degree from Engineering College Kota in 2006 with a degree in ECE. After graduation, he joined TCS as Software Developer and Currently, he lives in Noida and Project manager with TCS. <br> Dharmendra loves travelling, driving, reading novels and playing lawn tennis.</p>
                         </div>
                     </div>
@@ -114,9 +120,6 @@
                   <p><img src="./images/heart.png" width="21" height="17" alt="Shruti &amp; Dharmendra"></p>
                     <h3>True Love</h3>
                     <h4>Shruti + Dharmendra</h4>
-                    <!--<p>Shruti and Dharmendra met over an intense game of Jumbling Towers (knock-off brand of Jenga). After the blocks fell (and Dharmendra won), they continued their new-found friendship by talking and hanging out every week.</p>  
-                    <p>After a year and a half of dating, Dharmendra was offered a job to head the web development at a design firm in Seattle, WA. They couldn't pass this up so they headed out to Seattle and continued their relationship. After arriving in Seattle, Shruti got a job as an administrative assistant at a large wholesale grocery cooperative on the West coast.</p> 
-                    <p>One year after moving to Seattle, Dharmendra got on one knee and proposed to the love of his life.</p>-->
                     <p style="text-align:center">Love marriages around the world are simple:
                         <br>
                         Boy loves girl. Girl loves boy. They get married.
@@ -336,4 +339,19 @@
                 window.scrollBy(0,300);
             }
         </script>
-</body></html>
+
+            <!--Parallax Scripts -->
+        <script src="js/parallax.js"></script>
+        <script>
+        // Pretty simple huh?
+        var scene1 = document.getElementById('scene1');
+        var scene2 = document.getElementById('scene2');
+        var scene3 = document.getElementById('scene3');
+        var parallax = new Parallax(scene1);
+        var parallax = new Parallax(scene2);
+        var parallax1 = new Parallax(scene3);
+        parallax.scalar(2, 18);
+        parallax1.limit(false, 5);
+        </script>
+</body>
+</html>

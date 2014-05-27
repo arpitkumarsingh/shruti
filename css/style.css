@@ -218,8 +218,13 @@ x. Home
 *********************************************************************************************/
 #home {
 	width: auto; height: 600px;
-	background: url(../images/bg.jpg) bottom center no-repeat #ff9796;
+	/*background: url(../images/bg.jpg) bottom center no-repeat #ff9796;*/
 	z-index: 1006;
+}
+
+#together{
+	background: url(../images/bg.jpg) bottom center no-repeat #ff9796; 
+	width: auto; height: 600px;
 }
 
 #home .content {
@@ -228,9 +233,10 @@ x. Home
 	left: 0; right: 0;
 }
 
-#home #logo {
+#home ul.scene1 li.lalala #logo {
+	text-align: center;
 	margin: 0 auto;
-	padding: 80px 0 0 0;
+	/*padding: 80px 0 0 0;*/
 	display: block;
 }
 
