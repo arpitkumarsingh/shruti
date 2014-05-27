@@ -1,0 +1,537 @@
+/*********************************************************************************************
+
+Theme Name: shruti & dharmendra
+Description: Designed + Developed by Akash Deep Singhal
+Version: 1.0.0
+Author: Akash Deep Singhal
+Author URI: http://www.akashsinghal.in
+
+**********************************************************************************************
+
+Designed and Built by Akash Deep Singhal - http://www.akashsinghal.in
+
+CSS, XHTML and Design Files are all Copyright 2014 Akash Deep Singhal
+
+**********************************************************************************************
+
+
+/********************************************************************************************* 
+
+x. CSS Reset 
+
+*********************************************************************************************/
+* {
+	margin: 0;
+	padding: 0;
+	min-height: 0;
+}
+
+/*********************************************************************************************
+
+x. Basic Setup (Body, Fonts, etc.) 
+
+*********************************************************************************************/
+html, body {
+	width: 100%; height: 100%;
+	font: 400 14px/20px "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 0.04em;
+	background: url(../images/noise.gif) repeat #FFF;
+	-webkit-text-size-adjust: none;
+}
+
+a {
+	outline: none;
+}
+
+a img {
+	border: none;
+}
+
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0;
+}
+
+h1 {
+	font: 700 55px/55px "futura-pt", sans-serif;
+	color: #FFF;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+h2 {
+	font: 400 25px/25px "futura-pt", sans-serif;
+	color: #FFF;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h3 {
+	font: 700 22px/22px "futura-pt", sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+h4 {
+	font: 400 16px/16px "futura-pt", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.maximum {
+	width: auto; height: auto;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.section {
+	position: relative;
+}
+
+.section p {
+	padding: 0 0 15px 0;	
+}
+
+#wrapper { 
+	width: 100%; height: auto;
+}
+
+/*********************************************************************************************
+
+x. Themes
+
+*********************************************************************************************/
+.coral {
+	background-color: #ff9796;
+	border-bottom: 1px solid #9e595a;
+	border-top: 1px solid #9e595a;
+}
+
+.coral h3 {
+	color: #8a4d4e;
+}
+
+.coral h4 {
+	color: #9e595a;
+}
+
+.coral p {
+	color: #a85e5f;
+}
+
+.dark-grey {
+	background: #999;	
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+.dark-grey h3 {
+	color: #fff;
+}
+
+.dark-grey h4 {
+	color: #eee;
+}
+
+.dark-grey p, .dark-grey a {
+	color: #ddd;
+}
+
+.grey {
+	background-color: #f1f0ee;
+}
+
+.grey h3 {
+	color: #7a7a7a;
+}
+
+.grey h4 {
+	color: #8f8f8f;
+}
+
+.grey p {
+	color: #999;
+}
+
+.gold {
+	background-color: #d6c6af;
+}
+
+.gold h3 {
+	color: #998565;
+}
+
+.gold h4 {
+	color: #998565;
+}
+
+.gold p {
+	color: #998565;
+}
+
+/*********************************************************************************************
+
+x. Navigation
+
+*********************************************************************************************/
+#nav {
+	margin: -49px 0 0 0;
+	position: fixed;
+	top: 50%; right: 0;
+	z-index: 1008;
+	list-style: none;
+}
+
+#nav #next {
+	width: 48px; height: 48px;
+	background: url(../images/nav.png) bottom left;
+	display: block;
+}
+
+#nav #next:hover {
+	background: url(../images/nav.png) bottom right;
+}
+
+#nav #prev {
+	width: 48px; height: 48px;
+	background: url(../images/nav.png) top left;
+	margin: 0 0 2px 0;
+	display: block;
+}
+
+#nav #prev:hover {
+	background: url(../images/nav.png) top right;
+}
+/*********************************************************************************************
+
+x. Home
+
+*********************************************************************************************/
+#home {
+	width: auto; height: 600px;
+	background: url(../images/bg.jpg) bottom center no-repeat #ff9796;
+	z-index: 1006;
+}
+
+#home .content {
+	position: absolute;
+	bottom: 150px; 
+	left: 0; right: 0;
+}
+
+#home #logo {
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+	display: block;
+}
+
+/*********************************************************************************************
+
+x. The Couple
+
+*********************************************************************************************/
+#dharmendra {
+	width: 50%; height: auto;
+	float: right;
+}
+
+#dharmendra .content {
+	padding: 100px 80px 35px 20px;	
+}
+
+#dharmendra h3, #dharmendra h4 {
+	text-align: left;
+}
+
+#shruti {
+	text-align: right;
+	width: 50%; height: auto;
+	float: left;
+}
+
+#shruti .content {
+	padding: 100px 20px 35px 80px;	
+}
+
+#shruti h3, #shruti h4 {
+	text-align: right;
+}
+
+#love { 
+	width: 600px; height: auto;
+	margin: 0 auto;
+	padding: 0 0 85px 0;
+}
+
+#love img {
+	margin: 0 auto;
+	display: block;
+}
+
+/*********************************************************************************************
+
+x. Wedding Events
+
+*********************************************************************************************/
+#accommodations { 
+	width: 600px; height: auto;
+	margin: 0 auto;
+	padding: 0 0 85px 0;
+}
+
+#ceremony, #cocktails, #reception {
+	width: 33.33%; height: auto;
+	float: left;
+}
+
+#ceremony .content {
+	padding: 100px 20px 35px 0;
+}
+
+#cocktails .content {
+	padding: 100px 20px 35px 20px;
+}
+
+#reception .content {
+	padding: 100px 0 35px 20px;
+}
+
+#wedding-events img {
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	display: block;
+}
+
+#wedding-events .maximum {
+	width: auto; height: auto;
+	max-width: 1206px;
+	margin: 0 auto;
+	padding: 0 80px;
+}
+
+/*********************************************************************************************
+
+x. Wedding Party
+
+*********************************************************************************************/
+#wedding-party { 
+	padding: 65px 60px 80px 60px;
+}
+
+#wedding-party .bridesmaid, #wedding-party .groomsman, #wedding-party .usher {
+	width: 25%; height: auto;
+	padding: 20px 0 5px 0;
+	float: left;
+}
+
+#wedding-party .content {
+	padding: 0 20px;
+}
+
+#wedding-party .content img {
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	display: block;
+}
+
+#wedding-party h3 {
+	padding: 35px 0 10px 0;
+}
+
+#wedding-party h4 {
+	padding: 0 0 10px 0;
+}
+
+/*********************************************************************************************
+
+x. Gift Registry
+
+*********************************************************************************************/
+#gift-registry { 
+	padding: 100px 0;
+}
+
+#gift-registry .content {
+	width: 600px; height: auto;
+	margin: 0 auto;
+}
+
+#companies {
+	width: 750px; height: auto;
+	margin: 35px auto 0 auto;
+	list-style: none;
+	overflow: hidden;
+}
+
+#companies li {
+	width: 250px; height: auto;
+	float: left;
+}
+
+#gift-registry img {
+	margin: 0 auto;
+	display: block;
+}
+
+/*********************************************************************************************
+
+x. Did You Know?
+
+*********************************************************************************************/
+#did-you-know { 
+	padding: 100px 0 85px 0;
+}
+
+#did-you-know .center {
+	text-align: center;
+}
+
+#did-you-know span {
+	font: 700 20px/20px "futura-pt", sans-serif;
+	color: #7a7a7a;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#slides {
+	width: 600px; height: auto;
+	margin: 0 auto;
+}
+
+.slides_container {
+	width: 600px; height: auto;
+	display: none;
+}
+
+.slides_container div {
+	width: 600px; height: auto;
+	display: block;
+}
+
+/*********************************************************************************************
+
+x. Photo Gallery
+
+*********************************************************************************************/
+#photo-gallery {
+	width: auto; height: 600px;
+}
+
+#photo-gallery ul {
+	width: 100%; height: 600px;
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+}
+
+#photo-gallery li {
+	width: 100%; height: 600px;
+}
+
+#photo-gallery img {
+	margin: 0 0 0 -640px;
+	position: absolute;
+	top: 0; left: 50%;
+}
+
+/*********************************************************************************************
+
+x. Footer
+
+*********************************************************************************************/
+#footer {
+	background: #FFF;
+	padding: 20px 0 5px 0;
+}
+
+#footer a {
+	color: #999;
+}
+
+#footer p {
+	font: 400 12px/20px "ff-tisa-web-pro", serif;
+	text-align: center;
+}
+
+#fix-nav{
+	height: 45px;
+	width: 100%;
+	background-color: #ff9796;
+	position: fixed;
+	
+	z-index: 1004;
+}
+#fix-nav > h3{
+	color: #e58787;
+	position: fixed;
+	top: 4px;
+	left: 510px;
+
+}
+#fix-nav > h3:hover{
+	color: #fcf3f3;
+	-webkit-transition: 0.2s;
+}
+
+#fix-nav > span{
+	color: #a05e5e;
+	position: fixed;
+	top: 23px;
+	left: 620px;
+}
+
+#fix-nav > a > img#logo-nav{
+	position: fixed;
+	top: 4px;
+	left: 480px;
+	height: 28px;
+}
+
+#fix-nav > a > img#logo-nav:hover{
+	color: #fff;
+}
+
+#fix-nav > ul{
+	display: inline-block;
+	position: fixed;
+	top: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#fix-nav > ul.left{
+	left: 60px;
+}
+
+#fix-nav > ul.right{
+	left: 880px;
+}
+
+#fix-nav > ul > li{
+	color: #e58787;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 18px;
+	padding-right: 18px;
+	top: 10px;
+	font-size: 20px;
+}
+
+#fix-nav > ul > li > a{
+	text-decoration: none;
+	color: #e58787;
+}
+
+#fix-nav > ul > li > a:hover{
+	color: #fcf3f3;
+	-webkit-transition: 0.2s;
+}
