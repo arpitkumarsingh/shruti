@@ -223,7 +223,7 @@ x. Home
 }
 
 #together{
-	background: url(../images/bg.png) bottom center no-repeat #ff9796; 
+	background: url(../images/bg9.png) bottom center no-repeat #ff9796; 
 	width: auto; height: 600px;
 }
 
@@ -345,7 +345,7 @@ x. Wedding Party
 }
 
 #wedding-party .usher{
-	width: 33%; height: auto;
+	width: 25%; height: auto;
 	padding: 20px 0 5px 0;
 	float: left;
 }
